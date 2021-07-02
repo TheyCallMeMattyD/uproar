@@ -8730,7 +8730,7 @@ hr {
         height: 250px; } }
     .mainSlider .slide .img--holder:before {
       content: '';
-      background-color: #38226f;
+      background-color: #cf5300;
       position: absolute;
       display: block;
       top: 0;
@@ -9050,7 +9050,7 @@ body.is-loaded .loading-content {
       width: 120px; } }
 
 .mainSlider-textmask {
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: opacity 2s linear 1s;
   transition: opacity 2s linear 1s;
   overflow: hidden;
