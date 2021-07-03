@@ -8711,6 +8711,7 @@ hr {
   .mainSlider .container {
     position: relative; }
   .mainSlider .slide .img--holder {
+    background-image: url("../images/uproar_bike.jpeg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
