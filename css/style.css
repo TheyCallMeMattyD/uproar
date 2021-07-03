@@ -8720,6 +8720,8 @@ hr {
     transition: -webkit-transform 3s ease, -webkit-filter 3s ease;
     transition: transform 3s ease, filter 3s ease;
     transition: transform 3s ease, filter 3s ease, -webkit-transform 3s ease, -webkit-filter 3s ease; }
+
+    
     @media (max-width: 1239px) {
       .mainSlider .slide .img--holder {
         height: 700px; } }
@@ -8922,6 +8924,8 @@ hr {
     .mainSlider {
       margin-top: 98px; } }
 
+
+      
 .fadeInLeftSm {
   -webkit-animation-name: fadeInLeftSm;
   animation-name: fadeInLeftSm;
