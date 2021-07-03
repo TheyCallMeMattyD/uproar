@@ -8720,8 +8720,6 @@ hr {
     transition: -webkit-transform 3s ease, -webkit-filter 3s ease;
     transition: transform 3s ease, filter 3s ease;
     transition: transform 3s ease, filter 3s ease, -webkit-transform 3s ease, -webkit-filter 3s ease; }
-
-    
     @media (max-width: 1239px) {
       .mainSlider .slide .img--holder {
         height: 700px; } }
@@ -8730,6 +8728,71 @@ hr {
         height: 354px; } }
     @media (max-width: 790px) {
       .mainSlider .slide .img--holder {
+        height: 250px; } }
+    .mainSlider .slide .img--holder:before {
+      content: '';
+      background-color: #cf5300;
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.8;
+      z-index: 1; }
+
+
+  /* ImageHolder 2 */
+      .mainSlider .slide .img--holder2 {
+        background-image: url("../images/slide2.jpeg");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        height: 900px;
+        -webkit-transition: -webkit-transform 3s ease, -webkit-filter 3s ease;
+        transition: -webkit-transform 3s ease, -webkit-filter 3s ease;
+        transition: transform 3s ease, filter 3s ease;
+        transition: transform 3s ease, filter 3s ease, -webkit-transform 3s ease, -webkit-filter 3s ease; }
+        @media (max-width: 1239px) {
+          .mainSlider .slide .img--holder2 {
+            height: 700px; } }
+        @media (max-width: 1024px) and (min-width: 551px) {
+          .mainSlider .slide .img--holder2 {
+            height: 354px; } }
+        @media (max-width: 790px) {
+          .mainSlider .slide .img--holder2 {
+            height: 250px; } }
+        .mainSlider .slide .img--holder:before {
+          content: '';
+          background-color: #cf5300;
+          position: absolute;
+          display: block;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0.8;
+          z-index: 1; }
+
+  /* ImageHolder 3 */
+  .mainSlider .slide .img--holder2 {
+    background-image: url("../images/slide3.jpeg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 900px;
+    -webkit-transition: -webkit-transform 3s ease, -webkit-filter 3s ease;
+    transition: -webkit-transform 3s ease, -webkit-filter 3s ease;
+    transition: transform 3s ease, filter 3s ease;
+    transition: transform 3s ease, filter 3s ease, -webkit-transform 3s ease, -webkit-filter 3s ease; }
+    @media (max-width: 1239px) {
+      .mainSlider .slide .img--holder2 {
+        height: 700px; } }
+    @media (max-width: 1024px) and (min-width: 551px) {
+      .mainSlider .slide .img--holder2 {
+        height: 354px; } }
+    @media (max-width: 790px) {
+      .mainSlider .slide .img--holder2 {
         height: 250px; } }
     .mainSlider .slide .img--holder:before {
       content: '';
@@ -9062,6 +9125,7 @@ body.is-loaded .loading-content {
   width: calc(100% - 4px);
   height: calc(100% - 4px); }
 
+  /* ImageHolder Grayfade */
 .load-mainslider .mainSlider .slide.slick-current .img--holder {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -9074,6 +9138,34 @@ body.is-loaded .loading-content {
   -webkit-filter: grayscale(1);
   -webkit-transform: scale(1.2);
   transform: scale(1.2); }
+
+  /* ImageHolder 2 Grayfade */
+  .load-mainslider .mainSlider .slide.slick-current .img--holder2 {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-filter: url(grayscale.svg#greyscale);
+    filter: url(grayscale.svg#greyscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+
+  /* ImageHolder 3 Grayfade */
+  .load-mainslider .mainSlider .slide.slick-current .img--holder3 {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-filter: url(grayscale.svg#greyscale);
+    filter: url(grayscale.svg#greyscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
 
 .load-mainslider .mainSlider .slide.slick-current .mainSlider-textmask {
   opacity: 1; }
