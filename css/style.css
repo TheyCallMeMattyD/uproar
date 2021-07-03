@@ -8775,7 +8775,7 @@ hr {
           z-index: 1; }
 
   /* ImageHolder 3 */
-  .mainSlider .slide .img--holder2 {
+  .mainSlider .slide .img--holder3 {
     background-image: url("../images/slide3.jpeg");
     background-size: cover;
     background-position: center top;
@@ -8786,13 +8786,13 @@ hr {
     transition: transform 3s ease, filter 3s ease;
     transition: transform 3s ease, filter 3s ease, -webkit-transform 3s ease, -webkit-filter 3s ease; }
     @media (max-width: 1239px) {
-      .mainSlider .slide .img--holder2 {
+      .mainSlider .slide .img--holder3 {
         height: 700px; } }
     @media (max-width: 1024px) and (min-width: 551px) {
-      .mainSlider .slide .img--holder2 {
+      .mainSlider .slide .img--holder3 {
         height: 354px; } }
     @media (max-width: 790px) {
-      .mainSlider .slide .img--holder2 {
+      .mainSlider .slide .img--holder3 {
         height: 250px; } }
     .mainSlider .slide .img--holder:before {
       content: '';
