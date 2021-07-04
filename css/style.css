@@ -10335,8 +10335,8 @@ html:not(.mac) .section-parallax {
       .tt-box01 .tt-box01_layout.tt-box01_layout02 .tt-box01__title .tt-title02 {
         color: #D3D3D5; }
   .tt-box01 .tt-box01__social {
-    background: -webkit-gradient(linear, right top, left top, color-stop(-3.76%, #FF1A43), to(#7B16D9));
-    background: linear-gradient(270deg, #FF1A43 -3.76%, #7B16D9 100%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(-3.76%, #D76300), to(#FFE7B5));
+    background: linear-gradient(270deg, #D76300 -3.76%, #FFE7B5 100%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
