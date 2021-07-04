@@ -6599,7 +6599,7 @@ button:focus {
     color: #FFFFFF;
     font-weight: bold;
     opacity: 0.9;
-    font-size: 200px;
+    font-size: 190px;
     line-height: 18px;
     text-shadow: 0px 2px 7px rgba(52, 52, 52, 0.3);
     -webkit-transform: translateX(-50%);
