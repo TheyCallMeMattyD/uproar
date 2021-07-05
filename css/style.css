@@ -13976,12 +13976,12 @@ html.ie.gecko body.modal-open {
   .tt-back-to-top:before {
     z-index: 2;
     opacity: 0;
-    background: -webkit-gradient(linear, right top, left top, color-stop(-3.76%, #FF1A43), to(#7B16D9));
-    background: linear-gradient(270deg, #FF1A43 -3.76%, #7B16D9 100%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(-3.76%, #d767300), to(#ffe7b5));
+    background: linear-gradient(270deg, #d76300 -3.76%, #FFE7B5 100%);
     -webkit-transition: opacity 0.2s linear;
     transition: opacity 0.2s linear; }
   .tt-back-to-top:after {
-    background: #FF1A43;
+    background: #633800;
     z-index: 0; }
   .tt-back-to-top i {
     position: relative;
