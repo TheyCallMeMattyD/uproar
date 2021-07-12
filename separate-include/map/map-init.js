@@ -49,7 +49,7 @@
 		// Create the Google Map using our element and options defined above
 		var map = new google.maps.Map(mapElement, mapOptions);
 
-		var image = 'images/beachflag.png';
+		var image = 'images/flag.png';
 
 		 var marker = new google.maps.Marker({
 				position: new google.maps.LatLng(38.915931701660156, -77.02112579345703),
