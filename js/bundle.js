@@ -2117,7 +2117,7 @@ jQuery(function($) {
 	};
 })(jQuery);
 (function($){
-	var ticketsCol = $('#js-ttcalendar');
+	var ticketsCol = $('#js-ttCALENDAR');
 	if (ticketsCol.length) {
 		ticketsCol.slick({
 			dots: false,
@@ -2127,8 +2127,8 @@ jQuery(function($) {
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			adaptiveHeight: true,
-			nextArrow: '.ttcalendar__navleft',
-			prevArrow: '.ttcalendar__navright'
+			nextArrow: '.ttCALENDAR__navleft',
+			prevArrow: '.ttCALENDAR__navright'
 		});
 	};
 })(jQuery);
@@ -2157,37 +2157,37 @@ jQuery(function($) {
 
 
 
-	var ttcalendar = $('#js-ttcalendar');
-	if (ttcalendar.length && ttcalendar.hasClass('ttcalendar-layout01')){
+	var ttCALENDAR = $('#js-ttCALENDAR');
+	if (ttCALENDAR.length && ttCALENDAR.hasClass('ttCALENDAR-layout01')){
 		if(window.innerWidth <= 1024 && !!('ontouchstart' in window) || !!('onmsgesturechange' in window)){
 			initOneClickBtn();
 		};
 	};
-	if (ttcalendar.length && ttcalendar.hasClass('ttcalendar-layout02')){
+	if (ttCALENDAR.length && ttCALENDAR.hasClass('ttCALENDAR-layout02')){
 		if(window.innerWidth <= 1024 && !!('ontouchstart' in window) || !!('onmsgesturechange' in window)){
 			initOneClickBtn02();
 		};
 	};
 	function initOneClickBtn(){
-		$('body').on('click', '#js-ttcalendar .tt-day-grid > *', function(e){
+		$('body').on('click', '#js-ttCALENDAR .tt-day-grid > *', function(e){
 			$(this).siblings().removeClass('active');
 			$(this).addClass('active');
 			watchClosingModal();
 		});
-		$('body').on('click touchend', '#js-ttcalendar .tt-day-event__bg > *', function(e){
+		$('body').on('click touchend', '#js-ttCALENDAR .tt-day-event__bg > *', function(e){
 			$(this).focus();
 		});
 	};
 	function initOneClickBtn02(){
 		console.log("initOneClickBtn02");
-		$('body').on('click', '#js-ttcalendar .tickets-col', function(e){
-			$('#js-ttcalendar').find('.tickets-col').removeClass('active');
+		$('body').on('click', '#js-ttCALENDAR .tickets-col', function(e){
+			$('#js-ttCALENDAR').find('.tickets-col').removeClass('active');
 			$(this).addClass('active');
 		});
 	};
 	function watchClosingModal(){
 		$('body').on('click', '.modal .close', function(e){
-			$('#js-ttcalendar .tt-day-grid > .active').removeClass('active');
+			$('#js-ttCALENDAR .tt-day-grid > .active').removeClass('active');
 		});
 	};
 })(jQuery);

@@ -845,7 +845,7 @@ describe('Options', function () {
     });
 
     describe('timepicker', function () {
-        it('should add timepicker to calendar', function () {
+        it('should add timepicker to CALENDAR', function () {
             dp = $input.datepicker({
                 timepicker: true
             }).data('datepicker');
