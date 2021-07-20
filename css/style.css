@@ -11556,8 +11556,8 @@ html:not(.mac) .section-parallax {
       max-width: 97%; }
     .ttcalendar-layout01 .tt-day-grid .tt-day-event__label .tt-day-event__label__text {
       color: #ffffff;
-      font-size: 20px;
-      line-height: 20px;
+      font-size: 15px;
+      line-height: 15px;
       text-transform: uppercase;
       margin-top: -5px;
       margin-left: 0px;
