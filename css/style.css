@@ -11016,6 +11016,7 @@ html:not(.mac) .section-parallax {
   position: relative;
   z-index: 0; }
   .contact-map #map {
+    margin-top: 50px;
     height: 450px;
     width: 100%; }
 
