@@ -489,11 +489,16 @@
 				<div class="f-copyright">
 					&copy; 2021 Uproar Lounge & Restaurant. All Rights Reserved.<br>
 					Rancho Web Design<br>
-					<a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms of Service</a>
+					<a href="#">Terms of Service</a>
 				</div>
-
+				<!-- ----------------------- MESSAGE / CHAT -------------------------- -->
+				<div class="tt-col tt-col-obj f-copyright">
+					<div class="tt-obj tt-obj-chat tablet-hidden">
+						<a href="#" class="tt-obj__btn" data-toggle="modal"
+							data-target="#modalPrivacy"><i></i><span>Privacy Policy</span></a>
+					</div>
+				</div>
 			</div>
-		</div>
 	</footer>
 	<!-- --------------------------- END FOOTER ------------------------- -->
 
@@ -809,11 +814,42 @@
 			</div>
 		</div>
 	</div>
+	<!-- modal (Privacy) -->
+	<div class="modal fade" id="modalPrivacy" tabindex="-1" role="dialog" aria-label="modalVipTables"
+		aria-hidden="true">
+		<div class="modal-dialog modal-md">
+			<div class="modal-content ">
+				<div class="modal-body modal-layout-dafault">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span
+							class="icon-close"></span></button>
+					<div class="modal-titleblock">
+						<div class="modal-title">Chat</div>
+					</div>
+					<form class="form-modal" id="jsFormChat" method="post" novalidate="novalidate" action="#">
+						<div class="form-group">
+							<input type="text" name="name" class="form-control" id="modalName04"
+								placeholder="Lets talk about privacy">
+						</div>
+						<div class="form-group">
+							<textarea name="message" class="form-control" placeholder="Message"></textarea>
+						</div>
+						<div class="row-btn text-center">
+							<button class="tt-btn-default"><span>submit</span></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<a href="#" id="js-backtotop" class="tt-back-to-top"><i class="icon-arrow_top"></i></a>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
 
 </body>
 
