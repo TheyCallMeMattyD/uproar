@@ -13,7 +13,7 @@
 			// The latitude and longitude to center the map (always required)
 			center: new google.maps.LatLng(38.915931701660156, -77.02112579345703), // Washington DC
 
-			scrollwheel:  true,
+			scrollwheel:  false,
 
 			// How you would like to style the map.
 			// This is where you would paste any style found on Snazzy Maps.
