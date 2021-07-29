@@ -11,8 +11,11 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
 		rel="stylesheet">
+	
 </head>
 
 <body>
@@ -42,36 +45,28 @@
 				<nav id="tt-nav">
 					<ul>
 						<li><a href="index.html"><span>HOME</span></a></li>
-						<li><a href="events.html"><span>EVENT CALENDAR</span></a></li>
-						<li>
-							<a href="#"><span>MENU</span></a>
+						<li><a href="events.html"><span>EVENTS</span></a></li>
+						<li><a href="menu.html"><span>MENU</span></a>
 							<ul>
-								<li><a href="#">FOOD</a></li>
+								<li><a href="menu.html">FOOD</a></li>
 								<li><a href="drinks.html">DRINKS</a></li>
 							</ul>
 						</li>
 						<li><a href="gallery.html"><span>GALLERY</span></a></li>
-						<li><a href="news.html"><span>NEWS</span></a>
-							<ul>
-								<li><a href="news.html">NEWS GRID</a></li>
-								<li><a href="news-item.html">NEWS/BLOG PAGE</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html"><span>CONTACT US</span></a></li>
+						<li><a href="contact.html"><span>CONTACT | DIRECTIONS</span></a></li>
 					</ul>
 					<div id="tt-nav__line"></div>
 				</nav>
-				<!-- /desktop-nav -->
 			</div>
 
 			<!-- ----------------------- MESSAGE / CHAT -------------------------- -->
-			<div class="tt-col tt-col-obj">
+			<!-- <div class="tt-col tt-col-obj">
 				<div class="tt-obj tt-obj-chat tablet-hidden">
 					<a href="#" class="tt-obj__btn" data-toggle="modal" data-target="#modalChat"><i
 							class="icon-chat"></i></a>
-				</div>
+				</div> -->
 				<!-- -------------------------- SEARCH ------------------------------ -->
-				<div class="tt-obj tt-obj-search" id="js-search">
+				<!-- <div class="tt-obj tt-obj-search" id="js-search">
 					<a href="#" class="tt-obj__btn"><i class="icon-search"></i></a>
 					<div class="tt-dropdown-menu">
 						<div class="container">
@@ -91,11 +86,12 @@
 							</form>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</header>
-	<!-- ------------------------------------- END HEADER -------------------------------------------------- -->
+
+	<!-- ------------------------------------- BEGIN DRINKS -------------------------------------------------- -->
 	<div id="subtitle-wrapper">
 		<div class="subtitle__img"></div>
 		<h1 class="subtitle__title">The Drinks!</h1>
@@ -416,22 +412,22 @@
 			</div>
 		</div>
 	</main>
+	
 	<!-- ------------------------ FOOTER --------------------------------- -->
 	<footer id="tt-footer" class="no-margin">
 		<div class="footer-wrapper">
 			<div class="container">
 				<nav class="f-nav" id="f-nav">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="events.html">EVENT CALENDAR</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="news.html">News</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="events.html">EVENTS</a></li>
+						<li><a href="menu.html"><span>FOOD</span></a></li>
+						<li><a href="drinks.html"><span>DRINKS</span></a></li>
+						<li><a href="gallery.html">GALLERY</a></li>
+						<li><a href="contact.html">CONTACT | DIRECTIONS</a></li>
 					</ul>
 				</nav>
-				<div class="f-logo">
-
-				</div>
+				<div class="f-logo"></div>
 				<div class="f-col">
 					<div class="row">
 						<div class="col-md-4">
@@ -449,9 +445,9 @@
 							<div class="f-info">
 								<div class="f-info__icon icon-phone"></div>
 								<div class="f-info__content">
-									<div class="tt-title">Contact Phones</div>
+									<div class="tt-title">Contact Phone</div>
 									<address>
-										(202) 462-4464<br>
+										(202) 462-4464
 									</address>
 								</div>
 							</div>
@@ -460,15 +456,18 @@
 							<div class="f-info">
 								<div class="f-info__icon icon-clock"></div>
 								<div class="f-info__content">
-									<div class="tt-title">Working Hours</div>
+									<div class="tt-title">Hours</div>
 									<address>
-										Mon-Fri: 9:00 am – 5:00 pm<br>Sat-Sun: 11:00 am – 16:00 pm
+										Wed / Thurs: 5pm - 12am<br>
+										Friday: 5pm - 3am<br>
+										Sat / Sun: 3pm - 3am
 									</address>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+
 				<div class="f-social">
 					<ul>
 						<li><a href="https://www.facebook.com/uproarloungedc/" class="icon-social-facebook"></a>
@@ -479,12 +478,11 @@
 				</div>
 				<div class="f-copyright">
 					&copy; 2021 Uproar Lounge & Restaurant. All Rights Reserved.<br>
-					a MattyD RanchoRelaxo Production<br>
-					<a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms of Service</a>
+					Rancho Web Design<br>
 				</div>
 			</div>
-		</div>
 	</footer>
+	
 	<!-- --------------------------- END FOOTER ------------------------- -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
