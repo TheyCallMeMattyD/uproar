@@ -11439,7 +11439,7 @@ html:not(.mac) .section-parallax {
     align-items: center;
     width: calc(14.285% - 10px);
     height: 262px;
-    background-color: #ffffff;
+    background-color: green;
     color: #3D3B42;
     font-family: "Poppins", sans-serif;
     position: relative;
