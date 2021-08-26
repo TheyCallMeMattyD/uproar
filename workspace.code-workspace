@@ -3,10 +3,6 @@
 		{
 			"name": "uproar",
 			"path": "."
-		},
-		{
-			"name": "font-icons",
-			"path": "../../../Downloads/themeforest-N4xgOQj9-clubio-night-club-html-template 2/src/font-icons"
 		}
 	],
 	"settings": {}
