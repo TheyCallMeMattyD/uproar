@@ -2001,7 +2001,7 @@ jQuery(function($) {
 			infinite: true,
 			speed: 300,
 			slidesToShow: 5,
-			slidesToScroll: 2,
+			slidesToScroll: 1,
 			adaptiveHeight: true,
 			autoplay:true,
 			autoplaySpeed:2500,
@@ -2009,8 +2009,8 @@ jQuery(function($) {
 			{
 				breakpoint: 1220,
 				settings: {
-					slidesToShow: 4,
-					slidesToScroll: 2,
+					slidesToShow: 3,
+					slidesToScroll: 1,
 				}
 			},
 			{
