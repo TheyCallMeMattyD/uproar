@@ -7779,7 +7779,7 @@ hr {
         z-index: 4; } }
   @media (max-width: 767px) {
     #tt-header {
-      top: 34px; }
+      top: 0px; }
       #tt-header .nav-btn {
         position: fixed;
         top: 0;
