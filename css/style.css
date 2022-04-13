@@ -138,6 +138,19 @@
   color: #948c81;
 }
 
+.menu .menu-wings {
+  font-style: italic;
+  font-size: 14px;
+  font-family: "Comic Neue", sans-serif;
+  color: #948c81;
+  text-align: right;
+  background: #fff;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  font-weight: 600;
+}
+
 /*--------------------------------------------------------------
 # MenuSections General
 --------------------------------------------------------------*/
