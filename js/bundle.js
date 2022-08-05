@@ -2000,11 +2000,11 @@ jQuery(function($) {
 			arrows: false,
 			infinite: true,
 			speed: 300,
-			slidesToShow: 5,
+			slidesToShow: 3,
 			slidesToScroll: 1,
 			adaptiveHeight: true,
 			autoplay:true,
-			autoplaySpeed:2500,
+			autoplaySpeed:5000,
 			responsive: [
 			{
 				breakpoint: 1220,
