@@ -36,7 +36,8 @@
  }
  
  .ticker-wrap {
-  position: -webkit-sticky;
+  /* position: -webkit-sticky; */
+  position:sticky;
   position: static;
   top: 0px;
   bottom: 0;
@@ -9319,9 +9320,9 @@ body.is-loaded .loading-content {
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
   -webkit-filter: url(grayscale.svg#greyscale);
+  -webkit-filter: grayscale(1);
   filter: url(grayscale.svg#greyscale);
   filter: gray;
-  -webkit-filter: grayscale(1);
   -webkit-transform: scale(1.2);
   transform: scale(1.2); }
 
@@ -9334,8 +9335,9 @@ body.is-loaded .loading-content {
     filter: grayscale(100%);
     -webkit-filter: url(grayscale.svg#greyscale);
     filter: url(grayscale.svg#greyscale);
-    filter: gray;
+  
     -webkit-filter: grayscale(1);
+    filter: gray;
     -webkit-transform: scale(1.2);
     transform: scale(1.2); }
 
@@ -9347,9 +9349,9 @@ body.is-loaded .loading-content {
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
     -webkit-filter: url(grayscale.svg#greyscale);
+    -webkit-filter: grayscale(1);
     filter: url(grayscale.svg#greyscale);
     filter: gray;
-    -webkit-filter: grayscale(1);
     -webkit-transform: scale(1.2);
     transform: scale(1.2); }
 
