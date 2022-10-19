@@ -4824,7 +4824,7 @@ a.text-dark:hover, a.text-dark:focus {
 .SumoSelect.open > .search > span, .SumoSelect.open > .search > label {
   visibility: hidden; }
 
-/*this is applied on that hidden select. DO NOT USE display:none; or visiblity:hidden; and Do not override any of these properties. */
+/*this is applied on that hidden select. DO NOT USE display:none; or visibility:hidden; and Do not override any of these properties. */
 .SelectClass, .SumoUnder {
   position: absolute;
   top: 0;
@@ -5180,7 +5180,8 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: 1043;
   position: fixed;
   outline: none !important;
-  -webkit-backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
 
 .mfp-container {
   text-align: center;
@@ -5275,6 +5276,7 @@ button.mfp-arrow {
   background: transparent;
   border: 0;
   -webkit-appearance: none;
+  appearance: none;
   display: block;
   outline: none;
   padding: 0;
