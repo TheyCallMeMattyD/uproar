@@ -13612,7 +13612,7 @@ html.ie.gecko body.modal-open {
   bottom: 0;
   left: 0;
   z-index: 11;
-  -webkit-overflow-scrolling: touch;
+  overflow: scroll;
   outline: none;
   text-align: center;
   padding: 0;
@@ -13673,7 +13673,7 @@ html.ie.gecko body.modal-open {
   bottom: 0;
   left: 0;
   z-index: 11;
-  -webkit-overflow-scrolling: touch;
+  overflow: scroll;
   outline: none; }
   .modal .modal-content {
     border-radius: 0;
