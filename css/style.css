@@ -6169,10 +6169,12 @@ img.mfp-img {
   height: 100%;
   padding: 0;
   margin: 0;
-  -webkit-appearance: none; }
+  -webkit-appearance: none; 
+  appearance: none; }
 
 .datepicker--time-row input[type='range']::-webkit-slider-thumb {
-  -webkit-appearance: none; }
+  -webkit-appearance: none; 
+  appearance: none; }
 
 .datepicker--time-row input[type='range']::-ms-tooltip {
   display: none; }
@@ -13540,7 +13542,8 @@ textarea:focus:-ms-input-placeholder {
 
 .form-default input.form-control,
 .form-default textarea.form-control {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  appearance: none; }
 
 .form-default textarea.form-control {
   padding-top: 10px; }
@@ -13690,7 +13693,7 @@ html.ie.gecko body.modal-open {
   bottom: 0;
   left: 0;
   z-index: 30;
-  -webkit-overflow-scrolling: touch;
+  overflow: scroll;
   outline: none; }
   .modal .modal-dialog {
     display: inline-block;
@@ -13870,7 +13873,8 @@ html.ie.gecko body.modal-open {
 
 .modal-layout-dafault input.form-control,
 .modal-layout-dafault textarea.form-control {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  appearance: none; }
 
 .modal-layout-dafault textarea {
   min-height: 89px; }
