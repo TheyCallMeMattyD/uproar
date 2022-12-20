@@ -8559,7 +8559,7 @@ hr {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/images/slide2.jpeg");
+    background-image: url("/images/slider/slide2.jpeg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-color: #5f5e63;
@@ -8905,7 +8905,7 @@ hr {
     position: relative; }
 
   .mainSlider .slide .img--holder {
-    background-image: url("../images/uproar_bike.jpeg");
+    background-image: url("../images/slider/uproar_bike.jpeg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -8938,7 +8938,7 @@ hr {
 
   /* ImageHolder 2 */
       .mainSlider .slide .img--holder2 {
-        background-image: url("../images/slide2.jpeg");
+        background-image: url("../images/slider/slide2.jpeg");
         background-size: cover;
         background-position: center top;
         background-repeat: no-repeat;
@@ -8970,7 +8970,7 @@ hr {
 
   /* ImageHolder 3 */
   .mainSlider .slide .img--holder3 {
-    background-image: url("../images/slide3.jpeg");
+    background-image: url("../images/slider/slide3.jpeg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
