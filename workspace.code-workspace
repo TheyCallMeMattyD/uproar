@@ -4,5 +4,23 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"ampm",
+			"blocktitle",
+			"callout",
+			"datepickers",
+			"datetime",
+			"flters",
+			"focusable",
+			"mainslider",
+			"menusection",
+			"mmpanels",
+			"optgroups",
+			"selall",
+			"sumoselect",
+			"tabindex",
+			"timepicker"
+		]
+	}
 }
